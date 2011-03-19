@@ -81,10 +81,20 @@ nnoremap <silent> <PageDown> <C-D><C-D>
 vnoremap <silent> <PageDown> <C-D><C-D>
 inoremap <silent> <PageDown> <C-\><C-O><C-D><C-\><C-O><C-D>
 
-" f11 to view for yank buffer buffer 
-nnoremap <silent> <F11> :YRShow<CR> 
+let mapleader = ","
 
-" show more command in history. 
+map <F8> <Esc>:setlocal spell spelllang=en_us<CR>
+map <F9> <Esc>:setlocal nospell<CR>
+
+"turn space tab drawing on a off				
+map <F10> :set list<CR>
+map <F11> :set list!<CR>
+" f12 to view for yank buffer buffer 
+nnoremap <silent> <F12> :YRShow<CR>
+"
+nnoremap <F2> :NERDTreeToggle<cr>
+"#nnoremap <leader>d :NERDTreeToggle<cr>
+" show more command in history.
 set history=1000
 
 
@@ -93,6 +103,6 @@ set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 
-" try to use more very magic 
+" try to use more very magic as I know perl regex much better then vims.
 map / /\v
 map ? ?\v
