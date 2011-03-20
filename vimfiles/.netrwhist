@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='f:'
 let g:netrw_dirhist_2='f:/temp'
 let g:netrw_dirhist_3='C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Vim 7.3'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='C:/Perforce'
 let g:netrw_dirhist_6='C:\Perforce'
 let g:netrw_dirhist_7='C:/Perforce'
 let g:netrw_dirhist_8='C:\Perforce'
+let g:netrw_dirhist_9='C:/Program Files/Vim/.git'
