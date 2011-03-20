@@ -1,5 +1,5 @@
 # a comment - this is ignored
-*73/**/*   # ignore vim files  
+vim73/**/*   # ignore vim files  
 *.a       # no .a files
 !lib.a    # but do track lib.a, even though you're ignoring .a files above
 /TODO     # only ignore the root TODO file, not subdir/TODO
